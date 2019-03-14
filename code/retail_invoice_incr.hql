@@ -10,5 +10,4 @@ Country STRING
 )
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 LOCATION '/user/rajeshs/external_table_location/wh/retail_invoice_incr_text'
-STORED AS TEXT
 tblproperties ("skip.header.line.count"="1");
